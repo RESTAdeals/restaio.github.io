@@ -3,8 +3,8 @@
     "name": "standard-minifier-js",
     "version": "2.3.4"
   },
-  "totalMinifiedBytes": 827093,
-  "totalMinifiedGzipBytes": 241240,
+  "totalMinifiedBytes": 1569099,
+  "totalMinifiedGzipBytes": 444434,
   "minifiedBytesByPackage": {
     "packages/meteor.js": 8958,
     "packages/meteor-base.js": 31,
@@ -13,15 +13,15 @@
     "packages/ecmascript.js": 30,
     "packages/modules-runtime.js": 4023,
     "packages/modules.js": [
-      213523,
+      949528,
       {
         "node_modules": {
           "meteor": {
             "modules": {
               "client.js": 124,
               "css.js": 261,
-              "install-packages.js": 2114,
-              "process.js": 347,
+              "install-packages.js": 2149,
+              "process.js": 413,
               "reify.js": 71,
               "stubs.js": 97,
               "node_modules": {
@@ -37,6 +37,88 @@
               }
             }
           },
+          "firebase": {
+            "package.json": 112,
+            "dist": {
+              "index.cjs.js": 851
+            }
+          },
+          "@firebase": {
+            "polyfill": {
+              "package.json": 87,
+              "dist": {
+                "index.cjs.js": 8393
+              }
+            },
+            "app": {
+              "package.json": 117,
+              "dist": {
+                "index.cjs.js": 4499
+              }
+            },
+            "util": {
+              "package.json": 118,
+              "dist": {
+                "index.cjs.js": 13545
+              }
+            },
+            "auth": {
+              "package.json": 78,
+              "dist": {
+                "auth.js": 150919
+              }
+            },
+            "database": {
+              "package.json": 122,
+              "dist": {
+                "index.cjs.js": 173542
+              }
+            },
+            "logger": {
+              "package.json": 85,
+              "dist": {
+                "index.cjs.js": 2300
+              }
+            },
+            "firestore": {
+              "package.json": 123,
+              "dist": {
+                "index.cjs.js": 237426
+              }
+            },
+            "webchannel-wrapper": {
+              "package.json": 93,
+              "dist": {
+                "index.js": 55361
+              }
+            },
+            "functions": {
+              "package.json": 123,
+              "dist": {
+                "index.cjs.js": 7114
+              }
+            },
+            "messaging": {
+              "package.json": 88,
+              "dist": {
+                "index.cjs.js": 30000
+              }
+            },
+            "storage": {
+              "package.json": 86,
+              "dist": {
+                "index.cjs.js": 37113
+              }
+            }
+          },
+          "whatwg-fetch": {
+            "package.json": 72,
+            "fetch.js": 7327
+          },
+          "tslib": {
+            "package.json": 65,
+            "tslib.js": 5356
+          },
           "aos": {
             "package.json": 66,
             "dist": {
@@ -51,7 +133,7 @@
           },
           "meteor-node-stubs": {
             "package.json": 77,
-            "index.js": 280,
+            "index.js": 304,
             "map.json": 946,
             "deps": {
               "process.js": 36
@@ -861,6 +943,7 @@
     "packages/iron_controller.js": 3837,
     "packages/iron_router.js": 19829,
     "packages/session.js": 264,
+    "packages/ovcharik_alertify.js": 7694,
     "packages/livedata.js": 105,
     "packages/hot-code-push.js": 33,
     "packages/launch-screen.js": 787,
@@ -876,9 +959,9 @@
         }
       }
     ],
-    "app/global-imports.js": 1095,
+    "app/global-imports.js": 1142,
     "app/app.js": [
-      166410,
+      164668,
       {
         "client": {
           "views": {
@@ -899,22 +982,22 @@
               "template.partners_animated.js": 1300,
               "template.press.js": 2514,
               "template.process.js": 1981,
-              "template.promo.js": 1231,
-              "template.services.js": 3606,
-              "template.statistic.js": 1515,
-              "template.subscribe.js": 2184,
+              "template.promo.js": 1256,
+              "template.services.js": 3604,
+              "template.statistic.js": 1218,
+              "template.subscribe.js": 1836,
               "template.team.js": 2817,
               "template.token.js": 1749,
-              "promo.js": 109
+              "promo.js": 1154
             },
             "includes": {
               "template.footer.js": 2086,
-              "template.header.js": 3262,
+              "template.header.js": 3248,
               "template.loading.js": 173,
               "header.js": 245
             }
           },
-          "main.js": 3264,
+          "main.js": 1113,
           "main.min.js": 110741
         },
         "lib": {
