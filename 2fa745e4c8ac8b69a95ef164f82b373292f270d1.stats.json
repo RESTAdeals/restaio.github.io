@@ -3,15 +3,15 @@
     "name": "standard-minifier-js",
     "version": "2.3.4"
   },
-  "totalMinifiedBytes": 1466859,
-  "totalMinifiedGzipBytes": 419971,
+  "totalMinifiedBytes": 1468463,
+  "totalMinifiedGzipBytes": 420109,
   "minifiedBytesByPackage": {
     "packages/meteor.js": 9015,
     "packages/meteor-base.js": 31,
     "packages/mobile-experience.js": 37,
     "packages/modules-runtime.js": 4159,
     "packages/modules.js": [
-      868251,
+      869426,
       {
         "node_modules": {
           "meteor": {
@@ -63,7 +63,7 @@
             "auth": {
               "package.json": 78,
               "dist": {
-                "auth.js": 150919
+                "auth.js": 150929
               }
             },
             "database": {
@@ -81,7 +81,7 @@
             "firestore": {
               "package.json": 123,
               "dist": {
-                "index.cjs.js": 237768
+                "index.cjs.js": 238899
               }
             },
             "webchannel-wrapper": {
@@ -93,13 +93,13 @@
             "functions": {
               "package.json": 123,
               "dist": {
-                "index.cjs.js": 5674
+                "index.cjs.js": 5837
               }
             },
             "messaging": {
               "package.json": 88,
               "dist": {
-                "index.cjs.js": 30030
+                "index.cjs.js": 30109
               }
             },
             "storage": {
@@ -120,7 +120,7 @@
           "aos": {
             "package.json": 66,
             "dist": {
-              "aos.js": 14090
+              "aos.js": 14093
             }
           },
           "jquery": {
@@ -131,7 +131,7 @@
           },
           "@babel": {
             "runtime": {
-              "package.json": 1145,
+              "package.json": 1138,
               "helpers": {
                 "builtin": {
                   "interopRequireDefault.js": 79,
@@ -173,8 +173,7 @@
               "_to-length.js": 113,
               "_to-integer.js": 102,
               "_wks.js": 190,
-              "_shared.js": 284,
-              "_library.js": 29,
+              "_shared.js": 124,
               "_to-object.js": 81,
               "_defined.js": 105,
               "_array-species-create.js": 101,
@@ -643,7 +642,7 @@
     ],
     "app/global-imports.js": 1001,
     "app/app.js": [
-      166436,
+      166865,
       {
         "client": {
           "views": {
@@ -664,7 +663,7 @@
               "template.partners_animated.js": 1300,
               "template.press.js": 2514,
               "template.process.js": 1981,
-              "template.promo.js": 2912,
+              "template.promo.js": 2764,
               "template.services.js": 3641,
               "template.statistic.js": 3384,
               "template.subscribe.js": 2831,
@@ -674,7 +673,7 @@
             },
             "includes": {
               "template.footer.js": 1742,
-              "template.header.js": 4418,
+              "template.header.js": 4995,
               "template.loading.js": 173,
               "header.js": 245
             }
